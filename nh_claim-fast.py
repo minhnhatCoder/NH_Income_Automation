@@ -17,10 +17,6 @@ import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
-import requests
-from bs4 import BeautifulSoup
-
-
 ROOT = Path(__file__).parent
 SYSTEM = platform.system()
 
